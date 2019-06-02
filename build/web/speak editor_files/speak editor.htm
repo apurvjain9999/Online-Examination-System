@@ -1,0 +1,259 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0025)http://speckedit.com/demo -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <TITLE>Demo</TITLE>
+        <LINK rel="icon" href="http://speckedit.com/_library/favicon.ico" type="image/x-icon">
+        <SCRIPT type="text/javascript" src="./speak editor_files/lara.js">
+        </SCRIPT>
+        <LINK id="ThemeStyle" rel="stylesheet" href="./speak editor_files/mytheme.css" type="text/css">
+        <LINK id="CommonStyle" rel="stylesheet" href="./speak editor_files/common.css" type="text/css">
+        <META name="description" content="View a demo of Speck Edit, a free, feather-light, open source Html Editor for small problems.  ">
+        <META name="keywords" content="javascript html editor, html editor, free html editor, opensource html editor">
+        <SCRIPT src="./speak editor_files/speck.js" type="text/javascript">
+        </SCRIPT>
+        <LINK href="./speak editor_files/speck.css" rel="stylesheet" type="text/css">
+    </HEAD><BODY>
+        <DIV id="Indicator" style="display:none;">
+        </DIV>
+        <INPUT id="Ajax" type="hidden" value="False">
+        <INPUT id="CurrentPath" type="hidden" value="/demo">
+        <DIV id="TextWrapper">
+            <DIV id="Wrapper">
+                <DIV id="WrapperContent">
+                    <DIV id="Top">
+                        <DIV id="TopCorner">
+                        </DIV>
+                        <DIV id="TopMenu">
+                            <UL>
+                                <LI id="Top1">
+                                    <A href="http://speckedit.com/demo#lara" onclick="lara.loadWindow(SIGN_IN);return false;">Sign In</A>
+                                </LI>
+                            </UL>
+                        </DIV>
+                    </DIV>
+                    <DIV id="Frame">
+                        <DIV id="FrameTL">
+                        </DIV>
+                        <DIV id="FrameTR">
+                        </DIV>
+                        <DIV id="FrameContent">
+                            <DIV id="Header">
+                                <DIV id="HeaderTL">
+                                </DIV>
+                                <DIV id="HeaderTR">
+                                </DIV>
+                                <DIV id="HeaderContent">
+                                    <TABLE class="CleanTable" style="width:100%;">
+                                        <TBODY>
+                                            <TR id="HeaderContentRow0">
+                                                <TD class="FeatureContainer" style="width:50%;padding-right:5px;">
+                                                    <!--Begin Feature: HeaderContentF2 - Javascript Html Editor-->
+                                                    <DIV id="HeaderContentF2">
+                                                        <DIV id="ImgContainerHeaderContentF2">
+                                                            <DIV style="text-align:left;">
+                                                                <IMG src="./speak editor_files/speckeditlogo.png" alt="Javascript Html Editor" border="0" id="ImgHeaderContentF2" title="Javascript Html Editor">
+                                                            </DIV>
+                                                        </DIV>
+                                                        <DIV class="Break">
+                                                        </DIV>
+                                                    </DIV>
+                                                    <!--End Feature: HeaderContentF2 - Javascript Html Editor-->
+                                                </TD>
+                                                <TD class="FeatureContainer" style="padding-left:5px;">
+                                                    <!--Begin Feature: HeaderContentF5 - New Text Area-->
+                                                    <DIV id="HeaderContentF5">
+                                                        <P>
+                                                            <BR>
+                                                        </P>
+                                                        <DIV class="Break">
+                                                        </DIV>
+                                                    </DIV>
+                                                    <!--End Feature: HeaderContentF5 - New Text Area-->
+                                                    <!--Begin Feature: HeaderContentF4 - New Text Area-->
+                                                    <DIV id="HeaderContentF4">
+                                                        <P align="center">
+                                                            <FONT size="1">Version 1.0</FONT>
+                                                        </P>
+                                                        <DIV class="Break">
+                                                        </DIV>
+                                                    </DIV>
+                                                    <!--End Feature: HeaderContentF4 - New Text Area-->
+                                                </TD>
+                                            </TR>
+                                        </TBODY>
+                                    </TABLE>
+                                </DIV>
+                                <DIV id="HeaderBL">
+                                </DIV>
+                                <DIV id="HeaderBR">
+                                </DIV>
+                            </DIV>
+                            <DIV id="MenuContentFrame">
+                                <DIV id="Menu">
+                                    <DIV id="MenuCorner">
+                                    </DIV>
+                                    <DIV id="MainMenu">
+                                        <UL>
+                                            <LI id="Main1">
+                                                <A href="http://speckedit.com/">Home</A>
+                                            </LI>
+                                            <LI id="Main2">
+                                                <A href="http://speckedit.com/north-america/canada/alberta/edmonton/post/2008/10/3/free-feather-light-open-source-javascript-html-editor-speck-edit">About</A>
+                                            </LI>
+                                            <LI id="Main3" class="SelectedMenuItem">
+                                                <A href="./speak editor_files/speak editor.htm">Demo<SPAN>View a demo of Speck Edit, a free, feather-light, open source Html Editor for small problems.  </SPAN></A>
+                                            </LI>
+                                            <LI id="Main4">
+                                                <A href="http://speckedit.com/demo#lara" onclick="lara.loadWindow(SIGN_IN);return false;">Sign In</A>
+                                            </LI>
+                                        </UL>
+                                    </DIV>
+                                </DIV>
+                                <DIV id="Content">
+                                    <DIV id="ContentTL">
+                                    </DIV>
+                                    <DIV id="ContentTR">
+                                    </DIV>
+                                    <DIV id="PageContent">
+                                        <DIV id="Pathdemo" class="CurrentURIContent">
+                                            <TABLE class="CleanTable" style="width:100%;">
+                                                <TBODY>
+                                                    <TR id="PageContentRow0">
+                                                        <TD class="FeatureContainer">
+                                                            <!--Begin Feature: F1 - Try Speck Edit-->
+                                                            <DIV id="F1">
+                                                                <H1>Try Speck Edit</H1>
+                                                                <P>When speckInit(); is called any text area with the class "iEdit" will be converted to a speck edit window. The text area must have an id. Width and height settings may be applied.</P>
+                                                                <DIV class="Break">
+                                                                </DIV>
+                                                            </DIV>
+                                                            <!--End Feature: F1 - Try Speck Edit-->
+                                                        </TD>
+                                                    </TR>
+                                                </TBODY>
+                                            </TABLE>
+                                            <TABLE class="CleanTable" style="width:100%;">
+                                                <TBODY>
+                                                    <TR id="PageContentRow1">
+                                                        <TD class="FeatureContainer">
+                                                            <!--Begin Feature: F2 - New Script Box-->
+                                                            <DIV id="F2">
+                                                                <DIV><DIV class="speckToolbar" style="width: 696px; "><INPUT type="button" id="htmlButton" title="Toggle HTML View" class="speckButton"><INPUT type="button" id="boldButton" title="Bold" class="speckButton"><INPUT type="button" id="italicButton" title="Italic" class="speckButton"><INPUT type="button" id="underlineButton" title="Underline" class="speckButton"><INPUT type="button" id="justifyleftButton" title="Align Left" class="speckButton"><INPUT type="button" id="justifycenterButton" title="Align Center" class="speckButton"><INPUT type="button" id="justifyrightButton" title="Align Right" class="speckButton"><INPUT type="button" id="insertorderedlistButton" title="Insert Ordered List" class="speckButton"><INPUT type="button" id="insertunorderedlistButton" title="Insert Unordered List" class="speckButton"><INPUT type="button" id="linkButton" title="Create Link" class="speckButton"><INPUT type="button" id="unlinkButton" title="Remove Link" class="speckButton"><INPUT type="button" id="formatblockButton" title="Choose Format" class="speckButton"><INPUT type="button" id="fontnameButton" title="Choose Font Style" class="speckButton"><INPUT type="button" id="fontsizeButton" title="Choose Font Size" class="speckButton"><INPUT type="button" id="forecolorButton" title="Choose Font Color" class="speckButton"><INPUT type="button" id="removeformatButton" title="Remove Formatting" class="speckButton"></DIV><DIV id="linklinkbar" class="speckLinkbar" style="width: 694px; display: none; "><INPUT id="SampleEditlink" style="width: 636px; "><INPUT type="button" id="linkingButton" value="link" class="linkbarButton"></DIV><DIV id="SampleEditHbar" class="speckBar" style="width: 694px; display: none; "><INPUT type="button" value="Heading 1" class="speckOption"><INPUT type="button" value="Heading 2" class="speckOption"><INPUT type="button" value="Heading 3" class="speckOption"><INPUT type="button" value="Heading 4" class="speckOption"><INPUT type="button" value="Heading 5" class="speckOption"><INPUT type="button" value="Heading 6" class="speckOption"><INPUT type="button" value="Normal" class="speckOption"><INPUT type="button" value="Block Quote" class="speckOption"></DIV><DIV id="SampleEditFbar" class="speckBar" style="width: 694px; display: none; "><INPUT type="button" value="Verdana" class="speckOption"><INPUT type="button" value="Arial" class="speckOption"><INPUT type="button" value="Georgia" class="speckOption"><INPUT type="button" value="Trebuchet" class="speckOption"><INPUT type="button" value="Courier" class="speckOption"><INPUT type="button" value="Times" class="speckOption"></DIV><DIV id="SampleEditSbar" class="speckBar" style="width: 694px; display: none; "><INPUT type="button" value="Small" class="speckOption"><INPUT type="button" value="Medium" class="speckOption"><INPUT type="button" value="Large" class="speckOption"><INPUT type="button" value="Largest" class="speckOption"></DIV><DIV id="forecolorSelect" class="speckColorBar" style="width: 694px; display: none; "><INPUT type="button" style="background-color: rgb(0, 102, 0); " class="speckColor"><INPUT type="button" style="background-color: rgb(102, 102, 0); " class="speckColor"><INPUT type="button" style="background-color: rgb(204, 255, 102); " class="speckColor"><INPUT type="button" style="background-color: rgb(102, 153, 51); " class="speckColor"><INPUT type="button" style="background-color: rgb(255, 255, 255); " class="speckColor"><INPUT type="button" style="background-color: rgb(238, 238, 238); " class="speckColor"><INPUT type="button" style="background-color: rgb(153, 153, 153); " class="speckColor"><INPUT type="button" style="background-color: rgb(51, 51, 51); " class="speckColor"><INPUT type="button" style="background-color: rgb(0, 0, 0); " class="speckColor"><INPUT type="button" style="background-color: rgb(102, 102, 153); " class="speckColor"><INPUT type="button" style="background-color: rgb(0, 0, 51); " class="speckColor"><INPUT type="button" style="background-color: rgb(0, 0, 102); " class="speckColor"><INPUT type="button" style="background-color: rgb(204, 255, 255); " class="speckColor"><INPUT type="button" style="background-color: rgb(255, 255, 51); " class="speckColor"><INPUT type="button" style="background-color: rgb(255, 204, 0); " class="speckColor"><INPUT type="button" style="background-color: rgb(255, 255, 153); " class="speckColor"><INPUT type="button" style="background-color: rgb(153, 0, 0); " class="speckColor"><INPUT type="button" style="background-color: rgb(51, 0, 51); " class="speckColor"><INPUT type="button" style="background-color: rgb(204, 51, 153); " class="speckColor"><INPUT type="button" style="background-color: rgb(255, 204, 204); " class="speckColor"><INPUT type="button" style="background-color: rgb(255, 255, 204); " class="speckColor"><INPUT type="button" style="background-color: rgb(153, 102, 51); " class="speckColor"><INPUT type="button" style="background-color: rgb(102, 51, 0); " class="speckColor"><INPUT type="button" style="background-color: rgb(51, 0, 0); " class="speckColor"></DIV>
+																<TEXTAREA id="SampleEdit" style="width: 690px; display: none; height: 274px; " cols="" rows="" class="iEdit">
+																This is the sample speck edit window.  Begin editing this text using the controls above.</TEXTAREA>
+																<IFRAME class="speckFrame" frameborder="0" style="width: 694px; height: 274px; "></IFRAME>
+
+																
+																</DIV>
+                                                                <SCRIPT type="text/javascript">speckInit();</SCRIPT>
+                                                                <DIV class="Break">
+                                                                </DIV>
+                                                            </DIV>
+                                                            <!--End Feature: F2 - New Script Box-->
+                                                        </TD>
+                                                    </TR>
+                                                </TBODY>
+                                            </TABLE>
+                                            <TABLE class="CleanTable" style="width:100%;">
+                                                <TBODY>
+                                                    <TR id="PageContentRow2">
+                                                        <TD class="FeatureContainer">
+                                                            <!--Begin Feature: F3 - Output-->
+                                                            <DIV id="F3">
+                                                                <P>Output from the editor is captured using the iEdit[] collection with the form: iEdit["TextAreaId"].html();</P>
+                                                                <DIV class="Break">
+                                                                </DIV>
+                                                            </DIV>
+                                                            <!--End Feature: F3 - Output-->
+                                                            <!--Begin Feature: F4 - Show Output-->
+                                                            <DIV id="F4">
+                                                                <INPUT type="button" value="Show Output" onclick="document.getElementById(&#39;ShowOutput&#39;).innerHTML = iEdit[&#39;SampleEdit&#39;].html();">
+                                                                <HR>
+                                                                <DIV id="ShowOutput">
+                                                                </DIV>
+                                                                <DIV class="Break">
+                                                                </DIV>
+                                                            </DIV>
+                                                            <!--End Feature: F4 - Show Output-->
+                                                        </TD>
+                                                    </TR>
+                                                </TBODY>
+                                            </TABLE>
+                                        </DIV>
+                                    </DIV>
+                                    <DIV id="ContentBL">
+                                    </DIV>
+                                    <DIV id="ContentBR">
+                                    </DIV>
+                                </DIV>
+                            </DIV>
+                            <DIV id="Footer">
+                                <DIV id="FooterTL">
+                                </DIV>
+                                <DIV id="FooterTR">
+                                </DIV>
+                                <DIV id="FooterContent">
+                                    <TABLE class="CleanTable" style="width:100%;">
+                                        <TBODY>
+                                            <TR id="FooterContentRow0">
+                                                <TD class="FeatureContainer" style="padding-right:5px;">
+                                                    <!--Begin Feature: F4 - Speck Editor News-->
+                                                    <DIV id="F4">
+                                                        <H3>Speck Editor News</H3>
+                                                        <DIV class="ListItem" style="margin-bottom:10px;">
+                                                            <DIV class="ListDetails">
+                                                                <B>
+                                                                    <A href="http://speckedit.com/north-america/canada/alberta/edmonton/post/2008/10/3/free-feather-light-open-source-javascript-html-editor-speck-edit">Free, feather-light, open source Javascript Html Editor - Speck Edit</A>
+                                                                </B>
+                                                            </DIV>
+                                                            <DIV class="Break">
+                                                            </DIV>
+                                                        </DIV>
+                                                        <DIV class="Break">
+                                                        </DIV>
+                                                    </DIV>
+                                                    <!--End Feature: F4 - Speck Editor News-->
+                                                </TD>
+                                                <TD class="FeatureContainer" style="width:25%;padding-left:5px;">
+                                                    <!--Begin Feature: FooterContentF1 - Footer Text-->
+                                                    <DIV id="FooterContentF1">
+                                                        <P align="right">
+                                                            <FONT size="1">© Copyright 2008 <BR>
+Geographical Media Inc.<BR></FONT>
+                                                            <BR>
+&nbsp;</P>
+                                                        <DIV class="Break">
+                                                        </DIV>
+                                                    </DIV>
+                                                    <!--End Feature: FooterContentF1 - Footer Text-->
+                                                </TD>
+                                            </TR>
+                                        </TBODY>
+                                    </TABLE>
+                                    <DIV id="LaraLink">Website created with <A href="http://getlara.com/" title="Anyone can create a website with Lara.">Lara</A> by <A href="http://geographicalmedia.com/" title="Geographical Media Inc.">Geographical Media</A></DIV>
+                                </DIV>
+                                <DIV id="FooterBL">
+                                </DIV>
+                                <DIV id="FooterBR">
+                                </DIV>
+                            </DIV>
+                        </DIV>
+                        <DIV id="FrameBL">
+                        </DIV>
+                        <DIV id="FrameBR">
+                        </DIV>
+                    </DIV>
+                </DIV>
+            </DIV>
+        </DIV>
+        <SCRIPT type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT><SCRIPT src="./speak editor_files/ga.js" type="text/javascript"></SCRIPT>
+        <SCRIPT type="text/javascript">
+var pageTracker = _gat._getTracker("UA-502968-32");
+pageTracker._trackPageview();
+</SCRIPT>
+    
+</BODY></HTML>
